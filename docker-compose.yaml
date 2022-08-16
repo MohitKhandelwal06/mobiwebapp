@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mohitwebapp:
+    image: mohitmobiweb:appv1
+    build: .
+    container_name: mohitwebc1
+    ports:
+      - 2345:80
+    restart: always
